@@ -22,7 +22,13 @@ assets/
   type-icons/          … タイプ印など共有小画像
 ```
 
-現時点は **骨格のみ** です。各アプリで必要なファイルを洗い出したうえで中身を追加します。
+現時点は **骨格のみ** です。既存アプリの棚卸しは作業用リポ側の `docs/INVENTORY.md` にまとめてあり、第1波で載せる候補は次です。
+
+- JSON: characters / skills / supports / events / priority-supports / scenarios
+- 画像: characters・supports・type-icons の webp
+- 後回し可: courses / effects（inherit-skill-list 独自・サイズ大）
+
+正本は現状 `umamusume-sp-calc` にあります。
 
 ## アプリからの参照（予定）
 
