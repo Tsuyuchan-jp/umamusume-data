@@ -22,13 +22,17 @@ assets/
   type-icons/          … タイプ印など共有小画像
 ```
 
-現時点は **骨格のみ** です。既存アプリの棚卸しは [docs/INVENTORY.md](docs/INVENTORY.md) にあります。第1波で載せる候補は次です。
+現時点は **骨格のみ** です。何を載せるかの棚卸し正本は Private 工場側  
+`umamusume-data-src/docs/INVENTORY.md`（マルチルートワークスペースで参照）。
 
-- JSON: characters / skills / supports / events / priority-supports / scenarios
+第1波で載せる候補:
+
+- JSON: characters / skills / **supports** / events / scenarios  
+  （`priority-supports` は「優先 40」廃止検討中のため保留）
 - 画像: characters・supports・type-icons の webp
 - 後回し可: courses / effects（inherit）、umasim skill_data（skill-emulator・AGPL）
 
-正本は現状 `umamusume-sp-calc`（カード系）。skill-emulator は別系統（umasim）です。
+正本データ源は現状 `umamusume-sp-calc`（カード系）。skill-emulator は別系統（umasim）です。
 
 ## アプリからの参照（予定）
 

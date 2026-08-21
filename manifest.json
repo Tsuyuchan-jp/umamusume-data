@@ -12,8 +12,8 @@
       "path": "data/skills.json",
       "sha256": null
     },
-    "supportCards": {
-      "path": "data/support_cards.json",
+    "supports": {
+      "path": "data/supports.json",
       "sha256": null
     }
   },
