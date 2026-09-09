@@ -1,0 +1,5 @@
+# JSON の sha256 が改行変換で壊れないようにする
+* text=auto eol=lf
+*.webp binary
+*.png binary
+*.jpg binary

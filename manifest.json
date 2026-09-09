@@ -1,34 +1,50 @@
 {
   "schemaVersion": 1,
-  "datasetVersion": "0.0.0",
-  "generatedAt": "2026-08-22T00:00:00Z",
-  "notes": "骨格のみ。各アプリで必要なデータを洗い出したうえで埋めていく。",
+  "datasetVersion": "0.1.0",
+  "generatedAt": "2026-09-09T18:27:26.425Z",
+  "notes": "第1波。supports は画像かつ events がある対象分のみ。priority-supports は載せない。",
+  "source": {
+    "app": "umamusume-sp-calc",
+    "extractedAt": "2026-08-29T17:09:16.945Z"
+  },
   "files": {
     "characters": {
       "path": "data/characters.json",
-      "sha256": null
+      "sha256": "baa87f837ccd464fbd131b6f6872792e9f34a77f0d343b96342f67d687b51c7d"
     },
     "skills": {
       "path": "data/skills.json",
-      "sha256": null
+      "sha256": "f5b942d64ee2a81244f93018844d678efe6e273fe209e2d00b5e49023e3f614d"
     },
     "supports": {
       "path": "data/supports.json",
-      "sha256": null
+      "sha256": "80c5f80da7f485bbaf56260c4b8fb6f79bdebe68957623dae8cecc68b3238a2d",
+      "count": 42
+    },
+    "events": {
+      "path": "data/events.json",
+      "sha256": "44ee380519a4656df3c6f98bfc05bb2464ae44413e39dafdf0e6253a30f3326f"
+    },
+    "scenarios": {
+      "path": "data/scenarios/toresenken.json",
+      "sha256": "d1133e1ea71f1f7be264518bbd16b60223ff2952ee33a69857b1d4f7717c72a3"
     }
   },
   "assets": {
     "characters": {
       "path": "assets/characters/",
-      "format": "webp"
+      "format": "webp",
+      "count": 263
     },
     "supports": {
       "path": "assets/supports/",
-      "format": "webp"
+      "format": "webp",
+      "count": 42
     },
     "typeIcons": {
       "path": "assets/type-icons/",
-      "format": "webp"
+      "format": "webp",
+      "count": 6
     }
   }
 }

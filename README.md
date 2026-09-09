@@ -14,27 +14,28 @@
 ## レイアウト
 
 ```
-manifest.json          … 目次（版・各ファイルのパス）
+manifest.json          … 目次（版・各ファイルのパスと sha256）
 data/                  … JSON（キャラ・スキル・サポカなど）
 assets/
   characters/          … ウマ娘アイコン
-  supports/            … サポカ画像
+  supports/            … サポカ画像（対象分のみ）
   type-icons/          … タイプ印など共有小画像
 ```
 
-現時点は **骨格のみ** です。何を載せるかの棚卸し正本は Private 工場側  
-`umamusume-data-src/docs/INVENTORY.md`（マルチルートワークスペースで参照）。
+## 第1波（datasetVersion 0.1.0）
 
-第1波で載せる候補:
+載せてあるもの:
 
-- JSON: characters / skills / **supports（対象分のみ）** / events / scenarios  
-  （`priority-supports` は載せない。対象＝画像かつ events）
-- 画像: characters・supports・type-icons の webp
-- 後回し可: courses / effects（inherit）、umasim skill_data（skill-emulator・AGPL）
+- JSON: characters / skills / **supports（対象 42 件）** / events / scenarios
+- 画像: characters 263 webp・supports 42 webp・type-icons 6 webp
+- `priority-supports.json` は載せない。対象サポカ＝画像かつ events
 
-正本データ源は現状 `umamusume-sp-calc`（カード系）。skill-emulator は別系統（umasim）です。
+正本データ源は現状 `umamusume-sp-calc`（カード系）。skill-emulator は別系統（umasim）です。  
+棚卸し正本は Private 工場側 `umamusume-data-src/docs/INVENTORY.md`。
 
-## アプリからの参照（予定）
+後回し（第2波）: courses / effects（inherit）、umasim skill_data（skill-emulator・AGPL）
+
+## アプリからの参照
 
 - マニフェスト: リポジトリ直下の `manifest.json`
 - 例（raw）: `https://raw.githubusercontent.com/Tsuyuchan-jp/umamusume-data/main/manifest.json`
