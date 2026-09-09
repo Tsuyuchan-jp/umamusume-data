@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "datasetVersion": "0.1.0",
-  "generatedAt": "2026-09-09T18:27:26.425Z",
-  "notes": "第1波。supports は画像かつ events がある対象分のみ。priority-supports は載せない。",
+  "datasetVersion": "0.1.1",
+  "generatedAt": "2026-09-09T21:41:53.727Z",
+  "notes": "supports は画像かつ events がある対象分のみ。priority-supports は載せない。",
   "source": {
-    "app": "umamusume-sp-calc",
-    "extractedAt": "2026-08-29T17:09:16.945Z"
+    "factory": "umamusume-data-src",
+    "extractedAt": "2026-09-09T21:35:30.367Z"
   },
   "files": {
     "characters": {
       "path": "data/characters.json",
-      "sha256": "baa87f837ccd464fbd131b6f6872792e9f34a77f0d343b96342f67d687b51c7d"
+      "sha256": "7caf453466030e237c36690a6c746318feb0b934eaf6976ba8736280d2d011c9"
     },
     "skills": {
       "path": "data/skills.json",
-      "sha256": "f5b942d64ee2a81244f93018844d678efe6e273fe209e2d00b5e49023e3f614d"
+      "sha256": "64c39a1f89502fe15e2f2ba1e5eb186ee445a3fe1305b363eeb9d48d142eb46e"
     },
     "supports": {
       "path": "data/supports.json",
@@ -23,11 +23,11 @@
     },
     "events": {
       "path": "data/events.json",
-      "sha256": "44ee380519a4656df3c6f98bfc05bb2464ae44413e39dafdf0e6253a30f3326f"
+      "sha256": "bc52e47073834f0641d60b9cde109954ebda91a3163c5f6604749c5b5abec3f9"
     },
     "scenarios": {
       "path": "data/scenarios/toresenken.json",
-      "sha256": "d1133e1ea71f1f7be264518bbd16b60223ff2952ee33a69857b1d4f7717c72a3"
+      "sha256": "b72a701a8c05f8d636e1eb060960838a2a2e4084cec23e702f1c51347cdcddce"
     }
   },
   "assets": {

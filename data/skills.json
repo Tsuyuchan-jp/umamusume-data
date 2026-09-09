@@ -5653,6 +5653,46 @@
     }
   },
   {
+    "id": 110431,
+    "name": "最恐！いたずら計画なのだ♪",
+    "baseSp": 0,
+    "rarity": 5,
+    "groupId": 11043,
+    "groupRate": 1,
+    "iconId": 0,
+    "lowerSkillId": null,
+    "upperSkillId": null,
+    "activation": {
+      "branches": [
+        {
+          "grounds": [
+            "dirt"
+          ],
+          "distances": [],
+          "styles": [
+            "senko"
+          ]
+        },
+        {
+          "grounds": [],
+          "distances": [],
+          "styles": [
+            "senko"
+          ]
+        }
+      ],
+      "tags": {
+        "grounds": [
+          "dirt"
+        ],
+        "distances": [],
+        "styles": [
+          "senko"
+        ]
+      }
+    }
+  },
+  {
     "id": 110441,
     "name": "とっておきmaterialize",
     "baseSp": 0,
@@ -7363,6 +7403,43 @@
         "styles": [
           "senko"
         ]
+      }
+    }
+  },
+  {
+    "id": 111271,
+    "name": "剛心鉄壁ガーディアン",
+    "baseSp": 0,
+    "rarity": 5,
+    "groupId": 11127,
+    "groupRate": 1,
+    "iconId": 0,
+    "lowerSkillId": null,
+    "upperSkillId": null,
+    "activation": {
+      "branches": [
+        {
+          "grounds": [],
+          "distances": [
+            "mid"
+          ],
+          "styles": []
+        },
+        {
+          "grounds": [],
+          "distances": [
+            "long"
+          ],
+          "styles": []
+        }
+      ],
+      "tags": {
+        "grounds": [],
+        "distances": [
+          "mid",
+          "long"
+        ],
+        "styles": []
       }
     }
   },
@@ -32910,6 +32987,151 @@
     }
   },
   {
+    "id": 204661,
+    "name": "開けろ風穴！",
+    "baseSp": 150,
+    "rarity": 2,
+    "groupId": 20466,
+    "groupRate": 2,
+    "iconId": 0,
+    "lowerSkillId": 204662,
+    "upperSkillId": null,
+    "activation": {
+      "branches": [
+        {
+          "grounds": [
+            "dirt"
+          ],
+          "distances": [],
+          "styles": []
+        }
+      ],
+      "tags": {
+        "grounds": [
+          "dirt"
+        ],
+        "distances": [],
+        "styles": []
+      }
+    }
+  },
+  {
+    "id": 204662,
+    "name": "砂塵を越えて",
+    "baseSp": 150,
+    "rarity": 1,
+    "groupId": 20466,
+    "groupRate": 1,
+    "iconId": 0,
+    "lowerSkillId": null,
+    "upperSkillId": 204661,
+    "activation": {
+      "branches": [
+        {
+          "grounds": [
+            "dirt"
+          ],
+          "distances": [],
+          "styles": []
+        }
+      ],
+      "tags": {
+        "grounds": [
+          "dirt"
+        ],
+        "distances": [],
+        "styles": []
+      }
+    }
+  },
+  {
+    "id": 204671,
+    "name": "堅忍果決",
+    "baseSp": 160,
+    "rarity": 2,
+    "groupId": 20467,
+    "groupRate": 2,
+    "iconId": 0,
+    "lowerSkillId": 204672,
+    "upperSkillId": null,
+    "activation": {
+      "branches": [
+        {
+          "grounds": [],
+          "distances": [
+            "short"
+          ],
+          "styles": []
+        }
+      ],
+      "tags": {
+        "grounds": [],
+        "distances": [
+          "short"
+        ],
+        "styles": []
+      }
+    }
+  },
+  {
+    "id": 204672,
+    "name": "ここが狙い目",
+    "baseSp": 160,
+    "rarity": 1,
+    "groupId": 20467,
+    "groupRate": 1,
+    "iconId": 0,
+    "lowerSkillId": null,
+    "upperSkillId": 204671,
+    "activation": {
+      "branches": [
+        {
+          "grounds": [],
+          "distances": [
+            "short"
+          ],
+          "styles": []
+        }
+      ],
+      "tags": {
+        "grounds": [],
+        "distances": [
+          "short"
+        ],
+        "styles": []
+      }
+    }
+  },
+  {
+    "id": 204682,
+    "name": "元気バクハツ",
+    "baseSp": 160,
+    "rarity": 1,
+    "groupId": 20468,
+    "groupRate": 1,
+    "iconId": 0,
+    "lowerSkillId": null,
+    "upperSkillId": null,
+    "activation": {
+      "branches": [
+        {
+          "grounds": [],
+          "distances": [
+            "short"
+          ],
+          "styles": []
+        }
+      ],
+      "tags": {
+        "grounds": [],
+        "distances": [
+          "short"
+        ],
+        "styles": []
+      }
+    }
+  },
+  {
     "id": 204701,
     "name": "素質の証明",
     "baseSp": 200,
@@ -41077,6 +41299,35 @@
     }
   },
   {
+    "id": 910431,
+    "name": "最恐！いたずら計画なのだ♪",
+    "baseSp": 200,
+    "rarity": 1,
+    "groupId": 91043,
+    "groupRate": 2,
+    "iconId": 0,
+    "lowerSkillId": null,
+    "upperSkillId": null,
+    "activation": {
+      "branches": [
+        {
+          "grounds": [],
+          "distances": [],
+          "styles": [
+            "senko"
+          ]
+        }
+      ],
+      "tags": {
+        "grounds": [],
+        "distances": [],
+        "styles": [
+          "senko"
+        ]
+      }
+    }
+  },
+  {
     "id": 910441,
     "name": "とっておきmaterialize",
     "baseSp": 200,
@@ -42676,6 +42927,43 @@
         "styles": [
           "senko"
         ]
+      }
+    }
+  },
+  {
+    "id": 911271,
+    "name": "剛心鉄壁ガーディアン",
+    "baseSp": 200,
+    "rarity": 1,
+    "groupId": 91127,
+    "groupRate": 2,
+    "iconId": 0,
+    "lowerSkillId": null,
+    "upperSkillId": null,
+    "activation": {
+      "branches": [
+        {
+          "grounds": [],
+          "distances": [
+            "mid"
+          ],
+          "styles": []
+        },
+        {
+          "grounds": [],
+          "distances": [
+            "long"
+          ],
+          "styles": []
+        }
+      ],
+      "tags": {
+        "grounds": [],
+        "distances": [
+          "mid",
+          "long"
+        ],
+        "styles": []
       }
     }
   },
@@ -51898,6 +52186,64 @@
     }
   },
   {
+    "id": 104302111,
+    "name": "ラスカル・ロンプ！",
+    "baseSp": 0,
+    "rarity": 6,
+    "groupId": 10430211,
+    "groupRate": 1,
+    "iconId": 0,
+    "lowerSkillId": null,
+    "upperSkillId": null,
+    "activation": {
+      "branches": [
+        {
+          "grounds": [],
+          "distances": [],
+          "styles": [
+            "senko"
+          ]
+        }
+      ],
+      "tags": {
+        "grounds": [],
+        "distances": [],
+        "styles": [
+          "senko"
+        ]
+      }
+    }
+  },
+  {
+    "id": 104302211,
+    "name": "ワルの大脱走",
+    "baseSp": 0,
+    "rarity": 6,
+    "groupId": 10430221,
+    "groupRate": 1,
+    "iconId": 0,
+    "lowerSkillId": null,
+    "upperSkillId": null,
+    "activation": {
+      "branches": [
+        {
+          "grounds": [
+            "dirt"
+          ],
+          "distances": [],
+          "styles": []
+        }
+      ],
+      "tags": {
+        "grounds": [
+          "dirt"
+        ],
+        "distances": [],
+        "styles": []
+      }
+    }
+  },
+  {
     "id": 104401111,
     "name": "放課後魔法少女",
     "baseSp": 0,
@@ -56123,6 +56469,35 @@
         "grounds": [],
         "distances": [
           "mid"
+        ],
+        "styles": []
+      }
+    }
+  },
+  {
+    "id": 106902221,
+    "name": "桜咲くときは今――！",
+    "baseSp": 0,
+    "rarity": 6,
+    "groupId": 10690222,
+    "groupRate": 1,
+    "iconId": 0,
+    "lowerSkillId": null,
+    "upperSkillId": null,
+    "activation": {
+      "branches": [
+        {
+          "grounds": [],
+          "distances": [
+            "mile"
+          ],
+          "styles": []
+        }
+      ],
+      "tags": {
+        "grounds": [],
+        "distances": [
+          "mile"
         ],
         "styles": []
       }
@@ -62445,6 +62820,72 @@
         "styles": [
           "senko"
         ]
+      }
+    }
+  },
+  {
+    "id": 112702111,
+    "name": "王道刑事、強面派",
+    "baseSp": 0,
+    "rarity": 6,
+    "groupId": 11270211,
+    "groupRate": 1,
+    "iconId": 0,
+    "lowerSkillId": null,
+    "upperSkillId": null,
+    "activation": {
+      "branches": [
+        {
+          "grounds": [],
+          "distances": [],
+          "styles": [
+            "senko"
+          ]
+        }
+      ],
+      "tags": {
+        "grounds": [],
+        "distances": [],
+        "styles": [
+          "senko"
+        ]
+      }
+    }
+  },
+  {
+    "id": 112702211,
+    "name": "トドメのかつ丼！",
+    "baseSp": 0,
+    "rarity": 6,
+    "groupId": 11270221,
+    "groupRate": 1,
+    "iconId": 0,
+    "lowerSkillId": null,
+    "upperSkillId": null,
+    "activation": {
+      "branches": [
+        {
+          "grounds": [],
+          "distances": [
+            "mid"
+          ],
+          "styles": []
+        },
+        {
+          "grounds": [],
+          "distances": [
+            "long"
+          ],
+          "styles": []
+        }
+      ],
+      "tags": {
+        "grounds": [],
+        "distances": [
+          "mid",
+          "long"
+        ],
+        "styles": []
       }
     }
   },
