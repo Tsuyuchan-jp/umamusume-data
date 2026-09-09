@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "datasetVersion": "0.1.2",
-  "generatedAt": "2026-09-09T22:06:54.229Z",
+  "datasetVersion": "0.1.3",
+  "generatedAt": "2026-09-09T22:27:56.360Z",
   "notes": "supports は画像かつ events がある対象分のみ。priority-supports は載せない。",
   "source": {
     "factory": "umamusume-data-src",
@@ -34,7 +34,7 @@
     "characters": {
       "path": "assets/characters/",
       "format": "webp",
-      "count": 264
+      "count": 266
     },
     "supports": {
       "path": "assets/supports/",
