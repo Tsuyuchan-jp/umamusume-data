@@ -22,16 +22,15 @@ assets/
   type-icons/          … タイプ印など共有小画像
 ```
 
-## 第1波（datasetVersion 0.1.0）
+## 第1波（datasetVersion 0.1.3）
 
 載せてあるもの:
 
 - JSON: characters / skills / **supports（対象 42 件）** / events / scenarios
-- 画像: characters 263 webp・supports 42 webp・type-icons 6 webp
+- 画像: characters 266 webp・supports 42 webp・type-icons 6 webp
 - `priority-supports.json` は載せない。対象サポカ＝画像かつ events
 
-正本データ源は現状 `umamusume-sp-calc`（カード系）。skill-emulator は別系統（umasim）です。  
-棚卸し正本は Private 工場側 `umamusume-data-src/docs/INVENTORY.md`。
+抽出の正本は Private 工場 `umamusume-data-src`。進捗はそちら `docs/STATUS.md`。
 
 後回し（第2波）: courses / effects（inherit）、umasim skill_data（skill-emulator・AGPL）
 
