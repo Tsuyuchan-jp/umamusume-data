@@ -27,8 +27,8 @@ assets/
 
 第1波で載せる候補:
 
-- JSON: characters / skills / **supports** / events / scenarios  
-  （`priority-supports` は載せない。対象サポカ＝画像かつ events）
+- JSON: characters / skills / **supports（対象分のみ）** / events / scenarios  
+  （`priority-supports` は載せない。対象＝画像かつ events）
 - 画像: characters・supports・type-icons の webp
 - 後回し可: courses / effects（inherit）、umasim skill_data（skill-emulator・AGPL）
 
