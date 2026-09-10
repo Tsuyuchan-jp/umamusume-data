@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "datasetVersion": "0.1.3",
-  "generatedAt": "2026-09-09T22:27:56.360Z",
-  "notes": "supports は画像かつ events がある対象分のみ。priority-supports は載せない。",
+  "datasetVersion": "0.1.4",
+  "generatedAt": "2026-09-10T15:07:55.110Z",
+  "notes": "supports は画像かつ events がある対象分のみ。priority-supports は載せない。courses は U-tools 全件。",
   "source": {
     "factory": "umamusume-data-src",
     "extractedAt": "2026-09-09T21:35:30.367Z"
@@ -28,6 +28,11 @@
     "scenarios": {
       "path": "data/scenarios/toresenken.json",
       "sha256": "b72a701a8c05f8d636e1eb060960838a2a2e4084cec23e702f1c51347cdcddce"
+    },
+    "courses": {
+      "path": "data/courses.json",
+      "sha256": "08c4e0abd6e097b0b466031d1ca88d3a4190aa9faa73e9ed17141062859d43f7",
+      "count": 140
     }
   },
   "assets": {
