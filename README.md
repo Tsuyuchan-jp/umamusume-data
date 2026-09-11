@@ -22,17 +22,18 @@ assets/
   type-icons/          … タイプ印など共有小画像
 ```
 
-## 第1波＋コース一覧＋effects＋tracks（datasetVersion 0.1.6）
+## 第1波＋コース一覧＋effects（datasetVersion 0.1.7）
 
 載せてあるもの:
 
-- JSON: characters / skills / **supports（対象 42 件）** / events / scenarios / **courses（140 件）** / **tracks（WASM 対応 137 件）** / **effects（金ドット 36 コース・遅延読み込み）**
+- JSON: characters / skills / **supports（対象 42 件）** / events / scenarios / **courses（140 件）** / **effects（金ドット 36 コース・遅延読み込み）**
 - 画像: characters 266 webp・supports 42 webp・type-icons 6 webp
 - `priority-supports.json` は載せない。対象サポカ＝画像かつ events
+- skill-emulator のコース一覧（`tracks.json`）は載せない
 
 抽出の正本は Private 工場 `umamusume-data-src`。進捗はそちら `docs/STATUS.md`。
 
-後回し（第2波の残り）: skill-emulator の tracks 接続、シミュ用 skill_data（工場 mdb。本家ファイルはコピーしない）
+後回し（第2波の残り）: シミュ用 skill_data（工場 mdb。本家ファイルはコピーしない）
 
 ## アプリからの参照
 
