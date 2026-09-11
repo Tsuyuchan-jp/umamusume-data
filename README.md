@@ -30,10 +30,11 @@ assets/
 - 画像: characters 266 webp・supports 42 webp・type-icons 6 webp
 - `priority-supports.json` は載せない。対象サポカ＝画像かつ events
 - skill-emulator のコース一覧（`tracks.json`）は載せない
+- skill-emulator 自体は棚を参照しない
 
 抽出の正本は Private 工場 `umamusume-data-src`。進捗はそちら `docs/STATUS.md`。
 
-後回し（第2波の残り）: シミュ用 skill_data（工場 mdb。本家ファイルはコピーしない）
+後回し: なし（シミュ用 skill_data は載せない。skill-emulator はハブ非接続）
 
 ## アプリからの参照
 
