@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "datasetVersion": "0.1.5",
-  "generatedAt": "2026-09-11T20:26:08.232Z",
-  "notes": "supports は画像かつ events がある対象分のみ。priority-supports は載せない。courses は U-tools 全件。effects は金ドット分・遅延読み込み。",
+  "datasetVersion": "0.1.6",
+  "generatedAt": "2026-09-11T20:48:22.666Z",
+  "notes": "supports は画像かつ events がある対象分のみ。priority-supports は載せない。courses は U-tools 全件。tracks は WASM 対応 137。effects は金ドット分・遅延読み込み。",
   "source": {
     "factory": "umamusume-data-src",
     "extractedAt": "2026-09-09T21:35:30.367Z"
@@ -33,6 +33,11 @@
       "path": "data/courses.json",
       "sha256": "08c4e0abd6e097b0b466031d1ca88d3a4190aa9faa73e9ed17141062859d43f7",
       "count": 140
+    },
+    "tracks": {
+      "path": "data/tracks.json",
+      "sha256": "7b34a6b7e794c0dd2de6a1e643f80e7d29badfbb76599f8763ace03459bb8ae2",
+      "count": 137
     },
     "effects": {
       "path": "data/effects/",
