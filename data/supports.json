@@ -1070,5 +1070,33 @@
     ],
     "hintLevelUpMax": 0,
     "eventIds": []
+  },
+  {
+    "id": 30317,
+    "name": "[行き先はあたたかな場所]マチカネタンホイザ",
+    "title": "行き先はあたたかな場所",
+    "characterName": "マチカネタンホイザ",
+    "characterId": 1062,
+    "rarity": "SSR",
+    "commandId": 101,
+    "type": "speed",
+    "hintSkillIds": [
+      200592,
+      201382,
+      201392,
+      201412,
+      202452,
+      202612,
+      202622,
+      203322,
+      203332,
+      203592,
+      203672,
+      204432,
+      204442,
+      204712
+    ],
+    "hintLevelUpMax": 0,
+    "eventIds": []
   }
 ]

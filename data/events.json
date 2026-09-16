@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "description": "常用サポカのイベントスキル（U-tools+mdb 抽出正本・2026-07 Phase B）。selection: auto=編成時自動計上 / single=1択",
+  "description": "常用サポカのイベントスキル（U-tools+mdb 抽出正本）。selection: auto=編成時自動計上 / single=1択",
   "prioritySupportNames": [
     "[一杯のノスタルジア] 駿川たづな",
     "[その執念は怒濤が如く] メイショウドトウ",
@@ -43,80 +43,81 @@
     "[巻頭カラーの夏] キセキ",
     "[夏空チルタイム] アーモンドアイ",
     "[時に交わる海と空] ミスターシービー",
-    "[As if Guided] エフフォーリア"
+    "[As if Guided] エフフォーリア",
+    "[行き先はあたたかな場所] マチカネタンホイザ"
   ],
   "events": [
     {
       "id": "evt_30311_830311003",
       "supportNameMatch": "As if Guided",
-      "label": "エフフォーリア 『運命』のライバル",
-      "selection": "single",
-      "defaultChoiceId": "c001_2045321+2047011+2045311",
+      "label": "スピエフフォーリア 『運命』のライバル",
       "choices": [
         {
-          "id": "c001_2045321+2047011+2045311",
-          "label": "① 華麗な踏み込み Lv1 + 素質の証明 Lv1 + 清麗高雅 Lv1",
+          "id": "c001_2045312+2045325+204701",
+          "label": "① 華麗な踏み込み Lv5 + 素質の証明 Lv2 + 清麗高雅 Lv2",
           "skills": [
             {
               "skillName": "華麗な踏み込み",
-              "hintLevel": 1,
+              "hintLevel": 5,
               "skillId": 204532
             },
             {
               "skillName": "素質の証明",
-              "hintLevel": 1,
+              "hintLevel": 2,
               "skillId": 204701
             },
             {
               "skillName": "清麗高雅",
-              "hintLevel": 1,
+              "hintLevel": 2,
               "skillId": 204531
             }
           ]
         },
         {
-          "id": "c002_2047011+2045711",
-          "label": "② 素質の証明 Lv1 + 純真無垢 Lv1",
+          "id": "c002_2045712+2047012",
+          "label": "② 素質の証明 Lv2 + 純真無垢 Lv2",
           "skills": [
             {
               "skillName": "素質の証明",
-              "hintLevel": 1,
+              "hintLevel": 2,
               "skillId": 204701
             },
             {
               "skillName": "純真無垢",
-              "hintLevel": 1,
+              "hintLevel": 2,
               "skillId": 204571
             }
           ]
         },
         {
-          "id": "c003_2037121+2047011+2037111",
-          "label": "③ 勇気の一歩 Lv1 + 素質の証明 Lv1 + ショーダウン Lv1",
+          "id": "c003_2037112+2037125+204701",
+          "label": "③ 勇気の一歩 Lv5 + 素質の証明 Lv2 + ショーダウン Lv2",
           "skills": [
             {
               "skillName": "勇気の一歩",
-              "hintLevel": 1,
+              "hintLevel": 5,
               "skillId": 203712
             },
             {
               "skillName": "素質の証明",
-              "hintLevel": 1,
+              "hintLevel": 2,
               "skillId": 204701
             },
             {
               "skillName": "ショーダウン",
-              "hintLevel": 1,
+              "hintLevel": 2,
               "skillId": 203711
             }
           ]
         }
-      ]
+      ],
+      "defaultChoiceId": "c001_2045312+2045325+204701",
+      "selection": "single"
     },
     {
       "id": "evt_30311_830311002",
       "supportNameMatch": "As if Guided",
-      "label": "エフフォーリア 運命の暴走散歩道",
+      "label": "スピエフフォーリア 運命の暴走散歩道",
       "selection": "auto",
       "skills": [
         {
@@ -129,7 +130,7 @@
     {
       "id": "evt_30311_801146002",
       "supportNameMatch": "As if Guided",
-      "label": "エフフォーリア 運命共同体な僕ら",
+      "label": "スピエフフォーリア 運命共同体な僕ら",
       "selection": "auto",
       "skills": [
         {
@@ -1160,6 +1161,19 @@
       ]
     },
     {
+      "id": "evt_30317_801062002",
+      "supportNameMatch": "行き先はあたたかな場所",
+      "label": "スピタンホイザ これも普通のハプニング！？",
+      "selection": "auto",
+      "skills": [
+        {
+          "skillName": "逃げけん制",
+          "hintLevel": 1,
+          "skillId": 200831
+        }
+      ]
+    },
+    {
       "id": "evt_30285_830285003",
       "supportNameMatch": "私のためのショッピング",
       "label": "根性キング 学びを繋げて",
@@ -1206,9 +1220,7 @@
     {
       "id": "evt_30312_830312002",
       "supportNameMatch": "時に交わる海と空",
-      "label": "シービー 『気分』キミの中に",
-      "selection": "single",
-      "defaultChoiceId": "c001_2035822",
+      "label": "スピシービー 『気分』キミの中に",
       "choices": [
         {
           "id": "c001_2035822",
@@ -1231,20 +1243,15 @@
               "skillId": 202892
             }
           ]
-        },
-        {
-          "id": "c003_empty",
-          "label": "③ スキルヒントなし",
-          "skills": []
         }
-      ]
+      ],
+      "defaultChoiceId": "c001_2035822",
+      "selection": "single"
     },
     {
       "id": "evt_30312_830312003",
       "supportNameMatch": "時に交わる海と空",
-      "label": "シービー 『気分』思うままに",
-      "selection": "single",
-      "defaultChoiceId": "c001_2020211+2045212",
+      "label": "スピシービー 『気分』思うままに",
       "choices": [
         {
           "id": "c001_2020211+2045212",
@@ -1294,12 +1301,14 @@
             }
           ]
         }
-      ]
+      ],
+      "defaultChoiceId": "c001_2020211+2045212",
+      "selection": "single"
     },
     {
       "id": "evt_30312_801057002",
       "supportNameMatch": "時に交わる海と空",
-      "label": "シービー たとえタブーに触れても",
+      "label": "スピシービー たとえタブーに触れても",
       "selection": "auto",
       "skills": [
         {
@@ -2590,6 +2599,11 @@
       "id": 30311,
       "title": "As if Guided",
       "name": "[As if Guided]エフフォーリア"
+    },
+    {
+      "id": 30317,
+      "title": "行き先はあたたかな場所",
+      "name": "[行き先はあたたかな場所]マチカネタンホイザ"
     }
   ],
   "prioritySupportIds": [
@@ -2634,6 +2648,7 @@
     30307,
     30308,
     30312,
-    30311
+    30311,
+    30317
   ]
 }

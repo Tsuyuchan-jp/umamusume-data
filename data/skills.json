@@ -4529,6 +4529,52 @@
     }
   },
   {
+    "id": 101491,
+    "name": "烈々と咲く",
+    "baseSp": 0,
+    "rarity": 5,
+    "groupId": 10149,
+    "groupRate": 1,
+    "iconId": 0,
+    "lowerSkillId": null,
+    "upperSkillId": null,
+    "activation": {
+      "branches": [
+        {
+          "grounds": [],
+          "distances": [],
+          "styles": [
+            "senko"
+          ]
+        },
+        {
+          "grounds": [],
+          "distances": [],
+          "styles": [
+            "sashi"
+          ]
+        },
+        {
+          "grounds": [],
+          "distances": [
+            "mid"
+          ],
+          "styles": []
+        }
+      ],
+      "tags": {
+        "grounds": [],
+        "distances": [
+          "mid"
+        ],
+        "styles": [
+          "senko",
+          "sashi"
+        ]
+      }
+    }
+  },
+  {
     "id": 110011,
     "name": "わやかわ♪マリンダイヴ",
     "baseSp": 0,
@@ -33132,6 +33178,80 @@
     }
   },
   {
+    "id": 204691,
+    "name": "剣抜弩張",
+    "baseSp": 180,
+    "rarity": 2,
+    "groupId": 20469,
+    "groupRate": 2,
+    "iconId": 0,
+    "lowerSkillId": 204692,
+    "upperSkillId": null,
+    "activation": {
+      "branches": [
+        {
+          "grounds": [],
+          "distances": [
+            "mile"
+          ],
+          "styles": []
+        },
+        {
+          "grounds": [],
+          "distances": [
+            "mid"
+          ],
+          "styles": []
+        }
+      ],
+      "tags": {
+        "grounds": [],
+        "distances": [
+          "mile",
+          "mid"
+        ],
+        "styles": []
+      }
+    }
+  },
+  {
+    "id": 204692,
+    "name": "立ち合い",
+    "baseSp": 180,
+    "rarity": 1,
+    "groupId": 20469,
+    "groupRate": 1,
+    "iconId": 0,
+    "lowerSkillId": null,
+    "upperSkillId": 204691,
+    "activation": {
+      "branches": [
+        {
+          "grounds": [],
+          "distances": [
+            "mile"
+          ],
+          "styles": []
+        },
+        {
+          "grounds": [],
+          "distances": [
+            "mid"
+          ],
+          "styles": []
+        }
+      ],
+      "tags": {
+        "grounds": [],
+        "distances": [
+          "mile",
+          "mid"
+        ],
+        "styles": []
+      }
+    }
+  },
+  {
     "id": 204701,
     "name": "素質の証明",
     "baseSp": 200,
@@ -33178,6 +33298,64 @@
         "grounds": [],
         "distances": [],
         "styles": []
+      }
+    }
+  },
+  {
+    "id": 204711,
+    "name": "励声一番",
+    "baseSp": 190,
+    "rarity": 2,
+    "groupId": 20471,
+    "groupRate": 2,
+    "iconId": 0,
+    "lowerSkillId": 204712,
+    "upperSkillId": null,
+    "activation": {
+      "branches": [
+        {
+          "grounds": [],
+          "distances": [],
+          "styles": [
+            "sashi"
+          ]
+        }
+      ],
+      "tags": {
+        "grounds": [],
+        "distances": [],
+        "styles": [
+          "sashi"
+        ]
+      }
+    }
+  },
+  {
+    "id": 204712,
+    "name": "気勢を上げて",
+    "baseSp": 190,
+    "rarity": 1,
+    "groupId": 20471,
+    "groupRate": 1,
+    "iconId": 0,
+    "lowerSkillId": null,
+    "upperSkillId": 204711,
+    "activation": {
+      "branches": [
+        {
+          "grounds": [],
+          "distances": [],
+          "styles": [
+            "sashi"
+          ]
+        }
+      ],
+      "tags": {
+        "grounds": [],
+        "distances": [],
+        "styles": [
+          "sashi"
+        ]
       }
     }
   },
@@ -40196,6 +40374,52 @@
         "styles": [
           "senko",
           "oikomi"
+        ]
+      }
+    }
+  },
+  {
+    "id": 901491,
+    "name": "烈々と咲く",
+    "baseSp": 200,
+    "rarity": 1,
+    "groupId": 90149,
+    "groupRate": 2,
+    "iconId": 0,
+    "lowerSkillId": null,
+    "upperSkillId": null,
+    "activation": {
+      "branches": [
+        {
+          "grounds": [],
+          "distances": [],
+          "styles": [
+            "senko"
+          ]
+        },
+        {
+          "grounds": [],
+          "distances": [],
+          "styles": [
+            "sashi"
+          ]
+        },
+        {
+          "grounds": [],
+          "distances": [
+            "mid"
+          ],
+          "styles": []
+        }
+      ],
+      "tags": {
+        "grounds": [],
+        "distances": [
+          "mid"
+        ],
+        "styles": [
+          "senko",
+          "sashi"
         ]
       }
     }
@@ -47261,6 +47485,43 @@
     }
   },
   {
+    "id": 101401311,
+    "name": "怪鳥は飛んでいく",
+    "baseSp": 0,
+    "rarity": 6,
+    "groupId": 10140131,
+    "groupRate": 1,
+    "iconId": 0,
+    "lowerSkillId": null,
+    "upperSkillId": null,
+    "activation": {
+      "branches": [
+        {
+          "grounds": [],
+          "distances": [],
+          "styles": [
+            "senko"
+          ]
+        },
+        {
+          "grounds": [],
+          "distances": [],
+          "styles": [
+            "sashi"
+          ]
+        }
+      ],
+      "tags": {
+        "grounds": [],
+        "distances": [],
+        "styles": [
+          "senko",
+          "sashi"
+        ]
+      }
+    }
+  },
+  {
     "id": 101402111,
     "name": "豪勇無双",
     "baseSp": 0,
@@ -53290,6 +53551,35 @@
       "tags": {
         "grounds": [],
         "distances": [],
+        "styles": []
+      }
+    }
+  },
+  {
+    "id": 104901311,
+    "name": "All-in!!",
+    "baseSp": 0,
+    "rarity": 6,
+    "groupId": 10490131,
+    "groupRate": 1,
+    "iconId": 0,
+    "lowerSkillId": null,
+    "upperSkillId": null,
+    "activation": {
+      "branches": [
+        {
+          "grounds": [],
+          "distances": [
+            "mid"
+          ],
+          "styles": []
+        }
+      ],
+      "tags": {
+        "grounds": [],
+        "distances": [
+          "mid"
+        ],
         "styles": []
       }
     }
@@ -63939,6 +64229,124 @@
           "senko",
           "oikomi"
         ]
+      }
+    }
+  },
+  {
+    "id": 114901111,
+    "name": "妙技・坂落とし",
+    "baseSp": 0,
+    "rarity": 6,
+    "groupId": 11490111,
+    "groupRate": 1,
+    "iconId": 0,
+    "lowerSkillId": null,
+    "upperSkillId": null,
+    "activation": {
+      "branches": [
+        {
+          "grounds": [],
+          "distances": [
+            "mile"
+          ],
+          "styles": [
+            "senko"
+          ]
+        },
+        {
+          "grounds": [],
+          "distances": [
+            "mid"
+          ],
+          "styles": [
+            "senko"
+          ]
+        },
+        {
+          "grounds": [],
+          "distances": [
+            "mile"
+          ],
+          "styles": [
+            "sashi"
+          ]
+        },
+        {
+          "grounds": [],
+          "distances": [
+            "mid"
+          ],
+          "styles": [
+            "sashi"
+          ]
+        },
+        {
+          "grounds": [],
+          "distances": [],
+          "styles": [
+            "senko"
+          ]
+        },
+        {
+          "grounds": [],
+          "distances": [],
+          "styles": [
+            "sashi"
+          ]
+        }
+      ],
+      "tags": {
+        "grounds": [],
+        "distances": [
+          "mile",
+          "mid"
+        ],
+        "styles": [
+          "senko",
+          "sashi"
+        ]
+      }
+    }
+  },
+  {
+    "id": 114901211,
+    "name": "寄らば斬る！",
+    "baseSp": 0,
+    "rarity": 6,
+    "groupId": 11490121,
+    "groupRate": 1,
+    "iconId": 0,
+    "lowerSkillId": null,
+    "upperSkillId": null,
+    "activation": {
+      "branches": [
+        {
+          "grounds": [],
+          "distances": [
+            "mile"
+          ],
+          "styles": []
+        },
+        {
+          "grounds": [],
+          "distances": [
+            "mid"
+          ],
+          "styles": []
+        },
+        {
+          "grounds": [],
+          "distances": [],
+          "styles": []
+        }
+      ],
+      "tags": {
+        "grounds": [],
+        "distances": [
+          "mile",
+          "mid"
+        ],
+        "styles": []
       }
     }
   }
