@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "datasetVersion": "0.1.9",
-  "generatedAt": "2026-09-16T16:34:40.980Z",
+  "datasetVersion": "0.1.10",
+  "generatedAt": "2026-09-16T16:47:21.659Z",
   "notes": "supports は画像かつ events がある対象分のみ。priority-supports は載せない。courses は U-tools 全件。effects は金ドット分・遅延読み込み。",
   "source": {
     "factory": "umamusume-data-src",
@@ -23,7 +23,7 @@
     },
     "events": {
       "path": "data/events.json",
-      "sha256": "96ee94e6544b0825fd14f8a53de0033bb204020ffa32cae8c55c90001bcd21ed"
+      "sha256": "3f9fa5b115f4335b36acc0a223d7a00267e6e90244d27ce0ca3588fe72a5570c"
     },
     "scenarios": {
       "path": "data/scenarios/toresenken.json",

@@ -1161,6 +1161,19 @@
       ]
     },
     {
+      "id": "evt_30317_830317002",
+      "supportNameMatch": "行き先はあたたかな場所",
+      "label": "スピタンホイザ あの日、あの時、あのマチタン",
+      "selection": "auto",
+      "skills": [
+        {
+          "skillName": "ここ一番",
+          "hintLevel": 1,
+          "skillId": 204022
+        }
+      ]
+    },
+    {
       "id": "evt_30317_801062002",
       "supportNameMatch": "行き先はあたたかな場所",
       "label": "スピタンホイザ これも普通のハプニング！？",
@@ -1170,6 +1183,24 @@
           "skillName": "逃げけん制",
           "hintLevel": 1,
           "skillId": 200831
+        }
+      ]
+    },
+    {
+      "id": "evt_30317_830317003",
+      "supportNameMatch": "行き先はあたたかな場所",
+      "label": "スピタンホイザ 小さな成長譚",
+      "selection": "auto",
+      "skills": [
+        {
+          "skillName": "突撃魂",
+          "hintLevel": 1,
+          "skillId": 202621
+        },
+        {
+          "skillName": "励声一番",
+          "hintLevel": 2,
+          "skillId": 204711
         }
       ]
     },
