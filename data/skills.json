@@ -4492,6 +4492,40 @@
     }
   },
   {
+    "id": 101441,
+    "name": "エパヌイスマンの大号令",
+    "baseSp": 0,
+    "rarity": 5,
+    "groupId": 10144,
+    "groupRate": 1,
+    "iconId": 0,
+    "lowerSkillId": null,
+    "upperSkillId": null,
+    "activation": {
+      "branches": [
+        {
+          "grounds": [],
+          "distances": [],
+          "styles": []
+        },
+        {
+          "grounds": [],
+          "distances": [
+            "mid"
+          ],
+          "styles": []
+        }
+      ],
+      "tags": {
+        "grounds": [],
+        "distances": [
+          "mid"
+        ],
+        "styles": []
+      }
+    }
+  },
+  {
     "id": 101451,
     "name": "冠絶タクティクス",
     "baseSp": 0,
@@ -40342,6 +40376,40 @@
     }
   },
   {
+    "id": 901441,
+    "name": "エパヌイスマンの大号令",
+    "baseSp": 200,
+    "rarity": 1,
+    "groupId": 90144,
+    "groupRate": 2,
+    "iconId": 0,
+    "lowerSkillId": null,
+    "upperSkillId": null,
+    "activation": {
+      "branches": [
+        {
+          "grounds": [],
+          "distances": [],
+          "styles": []
+        },
+        {
+          "grounds": [],
+          "distances": [
+            "mid"
+          ],
+          "styles": []
+        }
+      ],
+      "tags": {
+        "grounds": [],
+        "distances": [
+          "mid"
+        ],
+        "styles": []
+      }
+    }
+  },
+  {
     "id": 901451,
     "name": "冠絶タクティクス",
     "baseSp": 200,
@@ -64138,6 +64206,77 @@
           "long"
         ],
         "styles": []
+      }
+    }
+  },
+  {
+    "id": 114401111,
+    "name": "Impeccable",
+    "baseSp": 0,
+    "rarity": 6,
+    "groupId": 11440111,
+    "groupRate": 1,
+    "iconId": 0,
+    "lowerSkillId": null,
+    "upperSkillId": null,
+    "activation": {
+      "branches": [
+        {
+          "grounds": [],
+          "distances": [
+            "mile"
+          ],
+          "styles": []
+        },
+        {
+          "grounds": [],
+          "distances": [
+            "mid"
+          ],
+          "styles": []
+        },
+        {
+          "grounds": [],
+          "distances": [],
+          "styles": []
+        }
+      ],
+      "tags": {
+        "grounds": [],
+        "distances": [
+          "mile",
+          "mid"
+        ],
+        "styles": []
+      }
+    }
+  },
+  {
+    "id": 114401211,
+    "name": "Rose of Steel",
+    "baseSp": 0,
+    "rarity": 6,
+    "groupId": 11440121,
+    "groupRate": 1,
+    "iconId": 0,
+    "lowerSkillId": null,
+    "upperSkillId": null,
+    "activation": {
+      "branches": [
+        {
+          "grounds": [],
+          "distances": [],
+          "styles": [
+            "senko"
+          ]
+        }
+      ],
+      "tags": {
+        "grounds": [],
+        "distances": [],
+        "styles": [
+          "senko"
+        ]
       }
     }
   },

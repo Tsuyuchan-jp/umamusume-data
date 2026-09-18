@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "datasetVersion": "0.1.10",
-  "generatedAt": "2026-09-16T16:47:21.659Z",
+  "datasetVersion": "0.1.11",
+  "generatedAt": "2026-09-18T03:19:49.694Z",
   "notes": "supports は画像かつ events がある対象分のみ。priority-supports は載せない。courses は U-tools 全件。effects は金ドット分・遅延読み込み。",
   "source": {
     "factory": "umamusume-data-src",
-    "extractedAt": "2026-09-16T16:15:26.382Z"
+    "extractedAt": "2026-09-18T02:54:23.218Z"
   },
   "files": {
     "characters": {
       "path": "data/characters.json",
-      "sha256": "7296a12f40eaff2348d5ccc01ca6db880ad0c24ca3500ad4bac8263f9ec089db"
+      "sha256": "a2f6e36691702ad485e787930eeb39917a721f83a2e7f420353575c422481050"
     },
     "skills": {
       "path": "data/skills.json",
-      "sha256": "6e7d407fd4b0e20ffe51b69bda2d481f8ed6b16eaf3bf6aa053fcc91ba093dc5"
+      "sha256": "d0d0688b70e3557ba4ce107f00fb210b24203daac1bc319b2b7816f7a6789605"
     },
     "supports": {
       "path": "data/supports.json",
@@ -31,7 +31,7 @@
     },
     "courses": {
       "path": "data/courses.json",
-      "sha256": "f9f5cff72afeddf0e91864b3d942229770ece5f369b88315e173ede526af1864",
+      "sha256": "0029b65134d7d92f4ca435767eff2931dbc706cd15941845fe5046151ac86c6d",
       "count": 140
     },
     "effects": {
@@ -46,7 +46,7 @@
     "characters": {
       "path": "assets/characters/",
       "format": "webp",
-      "count": 267
+      "count": 268
     },
     "supports": {
       "path": "assets/supports/",
