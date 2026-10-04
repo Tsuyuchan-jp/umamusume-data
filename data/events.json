@@ -2466,6 +2466,37 @@
       ]
     },
     {
+      "id": "evt_30320_830320002",
+      "supportNameMatch": "冷凜なるビスクドール",
+      "label": "賢さビスク 不器用コミュニケーション",
+      "selection": "auto",
+      "skills": [
+        {
+          "skillName": "スリップストリーム",
+          "hintLevel": 1,
+          "skillId": 201651
+        }
+      ]
+    },
+    {
+      "id": "evt_30320_830320003",
+      "supportNameMatch": "冷凜なるビスクドール",
+      "label": "賢さビスク ひそやかな温もり",
+      "selection": "auto",
+      "skills": [
+        {
+          "skillName": "解き放つ情念",
+          "hintLevel": 2,
+          "skillId": 203801
+        },
+        {
+          "skillName": "一往直前",
+          "hintLevel": 1,
+          "skillId": 204721
+        }
+      ]
+    },
+    {
       "id": "evt_30320_801118002",
       "supportNameMatch": "冷凜なるビスクドール",
       "label": "賢さビスク ひとりが好きなクラスメイトさん",
