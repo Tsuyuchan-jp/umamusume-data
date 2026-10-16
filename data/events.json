@@ -2466,19 +2466,6 @@
       ]
     },
     {
-      "id": "evt_30320_830320002",
-      "supportNameMatch": "冷凜なるビスクドール",
-      "label": "賢さビスク 不器用コミュニケーション",
-      "selection": "auto",
-      "skills": [
-        {
-          "skillName": "スリップストリーム",
-          "hintLevel": 1,
-          "skillId": 201651
-        }
-      ]
-    },
-    {
       "id": "evt_30320_830320003",
       "supportNameMatch": "冷凜なるビスクドール",
       "label": "賢さビスク ひそやかな温もり",
@@ -2506,6 +2493,19 @@
           "skillName": "ワンチャンス",
           "hintLevel": 1,
           "skillId": 202082
+        }
+      ]
+    },
+    {
+      "id": "evt_30320_830320002",
+      "supportNameMatch": "冷凜なるビスクドール",
+      "label": "賢さビスク 不器用コミュニケーション",
+      "selection": "auto",
+      "skills": [
+        {
+          "skillName": "スリップストリーム",
+          "hintLevel": 1,
+          "skillId": 201651
         }
       ]
     }

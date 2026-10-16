@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "datasetVersion": "0.1.14",
-  "generatedAt": "2026-10-04T23:54:16.706Z",
+  "datasetVersion": "0.1.15",
+  "generatedAt": "2026-10-16T14:06:26.480Z",
   "notes": "supports は画像かつ events がある対象分のみ。priority-supports は載せない。courses は U-tools 全件。effects は金ドット分・遅延読み込み。",
   "source": {
     "factory": "umamusume-data-src",
-    "extractedAt": "2026-09-30T03:41:53.516Z"
+    "extractedAt": "2026-10-16T13:49:24.273Z"
   },
   "files": {
     "characters": {
       "path": "data/characters.json",
-      "sha256": "274db001271d4efe201bf52cc8b47357727894ade85df7099093e854aeb8bdfa"
+      "sha256": "ac9f2b811234735ee7ed0e03d09772f78a4856a6080b6cc892a8528e7f7d5541"
     },
     "skills": {
       "path": "data/skills.json",
-      "sha256": "11bf7aa86d611047f5052b48059cf77d6aa9b4a7ad8e25ba2f7f901dcd267e62"
+      "sha256": "882e6ed7697128febf0dc536cb8031543327ec974c8f44868ee8dd6dff6e0107"
     },
     "supports": {
       "path": "data/supports.json",
@@ -23,7 +23,7 @@
     },
     "events": {
       "path": "data/events.json",
-      "sha256": "ac3febaad945b4046a137ff6d1d650b6b6def9ae02a891be936e30735956bfd4"
+      "sha256": "4518e94d4dc34d9a8bc95a3558a20c2654eaa6ad29485b45b9c1c6d9b7e542fd"
     },
     "scenarios": {
       "path": "data/scenarios/toresenken.json",
@@ -31,7 +31,7 @@
     },
     "courses": {
       "path": "data/courses.json",
-      "sha256": "44319688cc197c894abeb065ef7b575b75320a27821dc6309b0797916ef986d9",
+      "sha256": "133850c5c4b8dba03223a299d63f44f5483dcb29f14b82cfc79c21be651e1151",
       "count": 140
     },
     "effects": {
@@ -46,7 +46,7 @@
     "characters": {
       "path": "assets/characters/",
       "format": "webp",
-      "count": 270
+      "count": 271
     },
     "supports": {
       "path": "assets/supports/",

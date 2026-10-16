@@ -7275,6 +7275,40 @@
     }
   },
   {
+    "id": 111081,
+    "name": "かくて宿りし血は目覚め",
+    "baseSp": 0,
+    "rarity": 5,
+    "groupId": 11108,
+    "groupRate": 1,
+    "iconId": 0,
+    "lowerSkillId": null,
+    "upperSkillId": null,
+    "activation": {
+      "branches": [
+        {
+          "grounds": [],
+          "distances": [
+            "mid"
+          ],
+          "styles": []
+        },
+        {
+          "grounds": [],
+          "distances": [],
+          "styles": []
+        }
+      ],
+      "tags": {
+        "grounds": [],
+        "distances": [
+          "mid"
+        ],
+        "styles": []
+      }
+    }
+  },
+  {
     "id": 111091,
     "name": "ずっとずっと輝いて",
     "baseSp": 0,
@@ -33580,6 +33614,64 @@
     }
   },
   {
+    "id": 204801,
+    "name": "抜山蓋世",
+    "baseSp": 190,
+    "rarity": 2,
+    "groupId": 20480,
+    "groupRate": 2,
+    "iconId": 0,
+    "lowerSkillId": 204802,
+    "upperSkillId": null,
+    "activation": {
+      "branches": [
+        {
+          "grounds": [],
+          "distances": [],
+          "styles": [
+            "oikomi"
+          ]
+        }
+      ],
+      "tags": {
+        "grounds": [],
+        "distances": [],
+        "styles": [
+          "oikomi"
+        ]
+      }
+    }
+  },
+  {
+    "id": 204802,
+    "name": "規格外",
+    "baseSp": 190,
+    "rarity": 1,
+    "groupId": 20480,
+    "groupRate": 1,
+    "iconId": 0,
+    "lowerSkillId": null,
+    "upperSkillId": 204801,
+    "activation": {
+      "branches": [
+        {
+          "grounds": [],
+          "distances": [],
+          "styles": [
+            "oikomi"
+          ]
+        }
+      ],
+      "tags": {
+        "grounds": [],
+        "distances": [],
+        "styles": [
+          "oikomi"
+        ]
+      }
+    }
+  },
+  {
     "id": 210011,
     "name": "アオハル燃焼・速",
     "baseSp": 200,
@@ -43229,6 +43321,31 @@
         "distances": [
           "mid"
         ],
+        "styles": []
+      }
+    }
+  },
+  {
+    "id": 911081,
+    "name": "かくて宿りし血は目覚め",
+    "baseSp": 200,
+    "rarity": 1,
+    "groupId": 91108,
+    "groupRate": 2,
+    "iconId": 0,
+    "lowerSkillId": null,
+    "upperSkillId": null,
+    "activation": {
+      "branches": [
+        {
+          "grounds": [],
+          "distances": [],
+          "styles": []
+        }
+      ],
+      "tags": {
+        "grounds": [],
+        "distances": [],
         "styles": []
       }
     }
@@ -62040,6 +62157,120 @@
           "mid"
         ],
         "styles": [
+          "oikomi"
+        ]
+      }
+    }
+  },
+  {
+    "id": 110802111,
+    "name": "魔の刻、来たれり",
+    "baseSp": 0,
+    "rarity": 6,
+    "groupId": 11080211,
+    "groupRate": 1,
+    "iconId": 0,
+    "lowerSkillId": null,
+    "upperSkillId": null,
+    "activation": {
+      "branches": [
+        {
+          "grounds": [],
+          "distances": [
+            "mid"
+          ],
+          "styles": [
+            "sashi"
+          ]
+        },
+        {
+          "grounds": [],
+          "distances": [
+            "mid"
+          ],
+          "styles": [
+            "oikomi"
+          ]
+        },
+        {
+          "grounds": [],
+          "distances": [],
+          "styles": [
+            "sashi"
+          ]
+        },
+        {
+          "grounds": [],
+          "distances": [],
+          "styles": [
+            "oikomi"
+          ]
+        }
+      ],
+      "tags": {
+        "grounds": [],
+        "distances": [
+          "mid"
+        ],
+        "styles": [
+          "sashi",
+          "oikomi"
+        ]
+      }
+    }
+  },
+  {
+    "id": 110802211,
+    "name": "喰らえども、喰らえども",
+    "baseSp": 0,
+    "rarity": 6,
+    "groupId": 11080221,
+    "groupRate": 1,
+    "iconId": 0,
+    "lowerSkillId": null,
+    "upperSkillId": null,
+    "activation": {
+      "branches": [
+        {
+          "grounds": [],
+          "distances": [
+            "mid"
+          ],
+          "styles": [
+            "sashi"
+          ]
+        },
+        {
+          "grounds": [],
+          "distances": [
+            "mid"
+          ],
+          "styles": [
+            "oikomi"
+          ]
+        },
+        {
+          "grounds": [],
+          "distances": [],
+          "styles": [
+            "sashi"
+          ]
+        },
+        {
+          "grounds": [],
+          "distances": [],
+          "styles": [
+            "oikomi"
+          ]
+        }
+      ],
+      "tags": {
+        "grounds": [],
+        "distances": [
+          "mid"
+        ],
+        "styles": [
+          "sashi",
           "oikomi"
         ]
       }
