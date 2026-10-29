@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "datasetVersion": "0.1.15",
-  "generatedAt": "2026-10-16T14:06:26.480Z",
+  "datasetVersion": "0.1.16",
+  "generatedAt": "2026-10-29T02:14:37.807Z",
   "notes": "supports は画像かつ events がある対象分のみ。priority-supports は載せない。courses は U-tools 全件。effects は金ドット分・遅延読み込み。",
   "source": {
     "factory": "umamusume-data-src",
-    "extractedAt": "2026-10-16T13:49:24.273Z"
+    "extractedAt": "2026-10-28T13:48:25.321Z"
   },
   "files": {
     "characters": {
       "path": "data/characters.json",
-      "sha256": "ac9f2b811234735ee7ed0e03d09772f78a4856a6080b6cc892a8528e7f7d5541"
+      "sha256": "06e42227d037e88ba3f7dbdbcd5723426959f6401889290edfb668f4c17d37e7"
     },
     "skills": {
       "path": "data/skills.json",
-      "sha256": "882e6ed7697128febf0dc536cb8031543327ec974c8f44868ee8dd6dff6e0107"
+      "sha256": "ae5666b9bddc2879a3e070e1c5d930ccc26d7be1e247d3b96baaa2263e5947db"
     },
     "supports": {
       "path": "data/supports.json",
-      "sha256": "7b6e119a007a64bc494ba5b65dada7700c856993f02dba35319bc0d8aa437f5b",
-      "count": 45
+      "sha256": "0b27bf1ca88ca90d598313352e55cad8333111a047a09ee44bf47ca7325a672e",
+      "count": 47
     },
     "events": {
       "path": "data/events.json",
-      "sha256": "4518e94d4dc34d9a8bc95a3558a20c2654eaa6ad29485b45b9c1c6d9b7e542fd"
+      "sha256": "ac1ca7409b41d318a985dfd684183a17615b2987dcbd56d8debf9b785c8c7187"
     },
     "scenarios": {
       "path": "data/scenarios/toresenken.json",
@@ -31,7 +31,7 @@
     },
     "courses": {
       "path": "data/courses.json",
-      "sha256": "133850c5c4b8dba03223a299d63f44f5483dcb29f14b82cfc79c21be651e1151",
+      "sha256": "ce827fc0e1ce864615de06ee026fcd23ba521d98011ba41cca993450ff308082",
       "count": 140
     },
     "effects": {
@@ -46,12 +46,12 @@
     "characters": {
       "path": "assets/characters/",
       "format": "webp",
-      "count": 271
+      "count": 272
     },
     "supports": {
       "path": "assets/supports/",
       "format": "webp",
-      "count": 45
+      "count": 47
     },
     "typeIcons": {
       "path": "assets/type-icons/",
